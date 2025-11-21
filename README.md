@@ -1,2 +1,2 @@
 # OCR-Optical-Character-Recog-Documentation
-Designing Document process
+Designing Document process going on...
