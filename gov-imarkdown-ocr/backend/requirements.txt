@@ -1,0 +1,21 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+PyYAML
+
+torch
+torchvision
+transformers
+accelerate
+
+opencv-python
+Pillow
+numpy
+
+pdf2image
+
+craft-text-detector
+
+# optional for semantic grouping
+sentence-transformers

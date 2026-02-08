@@ -1,0 +1,24 @@
+:root { font-family: system-ui, Arial; }
+.container { max-width: 1100px; margin: 20px auto; padding: 0 16px; }
+.header { margin-bottom: 16px; }
+.title { font-size: 22px; font-weight: 700; }
+.subtitle { color: #555; margin-top: 4px; }
+
+.card { background: #fff; border: 1px solid #e6e6e6; border-radius: 14px; padding: 14px; margin: 12px 0; box-shadow: 0 1px 6px rgba(0,0,0,0.04); }
+.cardTitle { font-weight: 700; }
+.btn { padding: 10px 14px; border-radius: 12px; border: none; background: #111; color: #fff; cursor: pointer; }
+.btn:disabled { opacity: .6; cursor: not-allowed; }
+.btnSmall { padding: 8px 10px; border-radius: 10px; border: 1px solid #ddd; background: #f7f7f7; cursor: pointer; }
+.hint { margin-top: 10px; color: #666; font-size: 13px; }
+.error { background: #fff0f0; border: 1px solid #ffd0d0; padding: 10px; border-radius: 10px; color: #a00000; margin-top: 10px; }
+
+.actions { display: flex; gap: 8px; margin: 10px 0; flex-wrap: wrap; }
+.markdownBox { border: 1px solid #eee; padding: 10px; border-radius: 10px; background: #fcfcfc; overflow: auto; max-height: 700px; }
+.row { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.tabs { display: flex; gap: 8px; }
+.tab { padding: 6px 10px; border-radius: 10px; border: 1px solid #ddd; background: #f7f7f7; cursor: pointer; }
+.tab.active { background: #111; color: #fff; border-color: #111; }
+.list { display: grid; gap: 10px; }
+.item { border: 1px solid #eee; border-radius: 12px; padding: 10px; background: #fafafa; }
+.meta { margin-top: 6px; color: #333; display: grid; gap: 4px; font-size: 14px; }
+.pill { display: inline-block; padding: 2px 8px; border-radius: 999px; border: 1px solid #ddd; font-size: 12px; margin-left: 8px; background: #fff; }
